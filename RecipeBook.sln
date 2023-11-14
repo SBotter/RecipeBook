@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{869648F4-3D4C-4535-A2C6-E84B99B3F01E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{2D518301-EA4C-4276-B568-26BDE3931264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{61989C3C-1B17-41C7-8A46-A254508B792B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tester", "tester", "{883D140A-95A7-4118-9293-391FCAFFF8C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.API", "src\RecipeBook.API\RecipeBook.API.csproj", "{6DB3B153-EEB3-489A-9F42-831F1F265386}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipeBook.ServiceLibrary", "src\RecipeBook.ServiceLibrary\RecipeBook.ServiceLibrary.csproj", "{BBED9124-9FAF-49CB-B14E-93F972D26DCD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipeBook", "src\RecipeBook\RecipeBook.sqlproj", "{9C5FFB74-C391-41FC-B23D-6953A57BA3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeBook.ServiceLibrary.Tests", "tests\RecipeBook.ServiceLibrary.Tests\RecipeBook.ServiceLibrary.Tests.csproj", "{2652F126-7CCA-4F81-9E87-06A01A2DD83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{869648F4-3D4C-4535-A2C6-E84B99B3F01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869648F4-3D4C-4535-A2C6-E84B99B3F01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869648F4-3D4C-4535-A2C6-E84B99B3F01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869648F4-3D4C-4535-A2C6-E84B99B3F01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB3B153-EEB3-489A-9F42-831F1F265386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB3B153-EEB3-489A-9F42-831F1F265386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB3B153-EEB3-489A-9F42-831F1F265386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB3B153-EEB3-489A-9F42-831F1F265386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBED9124-9FAF-49CB-B14E-93F972D26DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBED9124-9FAF-49CB-B14E-93F972D26DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBED9124-9FAF-49CB-B14E-93F972D26DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBED9124-9FAF-49CB-B14E-93F972D26DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5FFB74-C391-41FC-B23D-6953A57BA3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5FFB74-C391-41FC-B23D-6953A57BA3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5FFB74-C391-41FC-B23D-6953A57BA3C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9C5FFB74-C391-41FC-B23D-6953A57BA3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5FFB74-C391-41FC-B23D-6953A57BA3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5FFB74-C391-41FC-B23D-6953A57BA3C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2652F126-7CCA-4F81-9E87-06A01A2DD83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2652F126-7CCA-4F81-9E87-06A01A2DD83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2652F126-7CCA-4F81-9E87-06A01A2DD83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2652F126-7CCA-4F81-9E87-06A01A2DD83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DB3B153-EEB3-489A-9F42-831F1F265386} = {61989C3C-1B17-41C7-8A46-A254508B792B}
+		{BBED9124-9FAF-49CB-B14E-93F972D26DCD} = {61989C3C-1B17-41C7-8A46-A254508B792B}
+		{9C5FFB74-C391-41FC-B23D-6953A57BA3C9} = {61989C3C-1B17-41C7-8A46-A254508B792B}
+		{2652F126-7CCA-4F81-9E87-06A01A2DD83E} = {883D140A-95A7-4118-9293-391FCAFFF8C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA0D0A8-184E-44C0-8D45-987CC7BB62A0}
+	EndGlobalSection
+EndGlobal
